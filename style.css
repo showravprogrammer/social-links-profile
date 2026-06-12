@@ -3,7 +3,7 @@
     color: hsl(0, 0%, 100%);
     margin: 0;
     padding: 0;
-    font-family: "Roboto", sans-serif;
+    font-family: "Inter", sans-serif;
 }
 
 body{
@@ -12,16 +12,12 @@ body{
     justify-content: center;
     text-align: center;
     align-items: center;
-    max-width: 100%;
-    width: 1440px;
     height: 100vh;
         
 }
 
 .container{
     background: hsl(0, 0%, 12%);
-    max-height: 90%;
-    max-width: 90%;
     width: 320px;
     border-radius: 10px;
    
@@ -30,7 +26,8 @@ img{
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    padding: 25px;
+    padding-top: 25px;
+    padding-bottom: 20px;
     margin-top: 23px;
 }
 
@@ -60,18 +57,28 @@ img{
     border-radius: 8px;
     margin: 7px;
     font-weight: bold;
-    transition: all 0.3s ease;
-   
+    transition: all 0.3s ease-in;
 }
 
 .button_content button:hover{
     background: hsl(75, 94%, 57%);
     color: hsl(0, 0%, 20%);
     cursor: pointer;
+  
     
 }
 
 .button_content button:focus{
     outline: 2px solid hsl(75, 94%, 57%);
     outline-offset: 3px;
+}
+
+@media (hover: hover) {
+    
+.button_content button:hover{
+    background: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
+    cursor: pointer;
+    
+}
 }
