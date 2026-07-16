@@ -66,10 +66,17 @@ span {
 
 .image_container {
   position: relative;
+  display: flex;
+}
+
+.image_container picture {
+  display: block;
 }
 .image_container img {
   object-fit: cover;
   height: 100%;
+  width: 100%;
+  display: block;
 }
 .color_content {
   position: absolute;
