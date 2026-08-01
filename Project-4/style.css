@@ -64,5 +64,13 @@ textarea {
     font-size: 1rem;
     font-family: 'Times New Roman', Times, serif;
     resize: none;
-    color: #ccc;
+    color: #333;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #3742fa;
+    box-shadow: 0 0 6px rgba(55, 66, 250, 0.3);
 }
