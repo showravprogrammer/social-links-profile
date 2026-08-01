@@ -48,6 +48,7 @@ h3 {
   font-size: 2rem;
   color: #3742fa;
   border: 10px ridge #ced6e0;
-  margin-left: 40%;
-  margin-right: 40%;
+  width: fit-content;
+  margin: 20px auto;
+  padding: 10px;
 }
